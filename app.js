@@ -39,7 +39,7 @@ app.post("/", function (req, res) {
     const url = "https://us13.api.mailchimp.com/3.0/lists/603c1efb63";
     const options = {
         method: "POST",
-        auth: "huzaifa:8d9cfc7e1c134980ce4e2af3af737184-us13"
+        auth: "huzaifa:9c8252c0d18d0d6cd5b9e45cfc1342df-us13"
     }
 
     const request = https.request(url, options, function (response) {
@@ -78,6 +78,7 @@ app.post("/success", function (req, res) {
 
 // API Key
 // 8d9cfc7e1c134980ce4e2af3af737184-us13
+// 9c8252c0d18d0d6cd5b9e45cfc1342df-us13
 
 
 // Audiance ID
